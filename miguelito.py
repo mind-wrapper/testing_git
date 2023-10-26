@@ -1,2 +1,0 @@
-print ("migiadsoahdnklhn")
-print("cddzasfnhaskfagsdjgasjkhv")
