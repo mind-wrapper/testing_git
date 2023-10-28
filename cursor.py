@@ -8,7 +8,9 @@ def on_click(x, y, button, pressed):
         x=rd.randint(0,900)
         y=rd.randint(0,1200)
         m.position=(x,y)
+        print(f"se movio el mouse a las coordenadas {x};{y}")
 
 
 with mouse.Listener(on_click=on_click) as listener:
     listener.join()
+
